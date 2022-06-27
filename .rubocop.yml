@@ -1,0 +1,12 @@
+AllCops:
+  NewCops: disable
+  Exclude:     
+    - 'db/**/*'     
+    - 'config/**/*'     
+    - 'libs/**/*'
+
+Style/Documentation:
+  Enabled: false
+
+Style/FrozenStringLiteralComment:
+  Enabled: false
